@@ -44,10 +44,7 @@
 					<th>Address</th>
 					<td><input type="text" name="address" id="address"></td>
 				</tr>
-				<tr>
-					<th>Image_url</th>
-					<td><input type="text" name="Image_url" id="Image_url"></td>
-				</tr>
+				
 				<tr id="btna">
 					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
 				</tr>
@@ -66,7 +63,7 @@
 					<th>Course</th>
 					<th>ph</th>
 					<th>Address</th>
-					<th>Image</th>
+					
 				</tr>
 			</thead>
 		</table>
@@ -83,7 +80,7 @@
 		var list5 = [];
 		var list6 = [];
 		var list7 = [];
-		var list8 = [];
+		
 
 		var n = 1;
 		var x = 0;
@@ -100,7 +97,7 @@
 			list5[x] = document.getElementById("course").value;
 			list6[x] = document.getElementById("ph").value;
 			list7[x] = document.getElementById("address").value;
-			list8[x] = document.getElementById("Image_url").value;
+		
 
 			var cel1 = NewRow.insertCell(0);
 			var cel2 = NewRow.insertCell(1);
@@ -109,7 +106,7 @@
 			var cel5 = NewRow.insertCell(4);
 			var cel6 = NewRow.insertCell(5);
 			var cel7 = NewRow.insertCell(6);
-			var cel8 = NewRow.insertCell(7);
+			
 
 			cel1.innerHTML = list1[x];
 			cel2.innerHTML = list2[x];
@@ -118,7 +115,7 @@
 			cel5.innerHTML = list5[x];
 			cel6.innerHTML = list6[x];
 			cel7.innerHTML = list7[x]; 
-			cel8.innerHTML = list8[x];
+			
 
 			n++;
 			x++;
