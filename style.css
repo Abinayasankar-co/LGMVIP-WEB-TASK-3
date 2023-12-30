@@ -1,8 +1,15 @@
+body{
+	background-color: burlywood;
+}
+
 table{
 	margin-top: 50px;
 	text-align: center;
-	background: cornflowerblue;
-	color: #fff;
+	background: bisque;
+	color: black;
+}
+.head{
+   justify-items: center;
 }
 
 #show th, #show td{
@@ -11,4 +18,22 @@ table{
 
 #btna td input{
 	width: 100%;
+}
+
+.display{
+    width: 100vw;
+    height: 100vh;
+    /* Aligns the children items in a row direction */
+    display: flex;
+}
+
+.content{
+    width: 500px;
+    height: 100px;
+    
+}
+
+.process{
+    width: 1500px
+   
 }
